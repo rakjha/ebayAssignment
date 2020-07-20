@@ -1,0 +1,109 @@
+18/08/2019 18:02:49 com.demo.steps_definitions.Hooks ---------- Launching ------------Firefox
+18/08/2019 18:02:49 com.demo.steps_definitions.Hooks Scenario "To verify the session count displyed in tool tip" is failed
+
+18/08/2019 18:05:12 com.demo.steps_definitions.Hooks Scenario "To verify the session count displyed in tool tip" execution started 
+
+18/08/2019 18:05:12 com.demo.steps_definitions.Hooks Scenario "To verify the session count displyed in tool tip" is failed
+
+18/08/2019 18:06:08 com.demo.steps_definitions.Hooks ---------- Launching ------------Firefox
+18/08/2019 18:06:08 com.demo.steps_definitions.Hooks Browser Launched with the URL https://www.highcharts.com/
+
+18/08/2019 18:06:08 com.demo.steps_definitions.Hooks Scenario "To verify the session count displyed in tool tip" execution started 
+
+18/08/2019 18:06:18 com.demo.steps_definitions.Hooks Scenario "To verify the session count displyed in tool tip" is failed
+
+18/08/2019 18:10:32 com.demo.steps_definitions.Hooks ---------- Launching ------------Firefox
+18/08/2019 18:10:32 com.demo.steps_definitions.Hooks Browser Launched with the URL https://www.highcharts.com/
+
+18/08/2019 18:10:32 com.demo.steps_definitions.Hooks Scenario "To verify the session count displyed in tool tip" execution started 
+
+18/08/2019 18:11:03 com.demo.steps_definitions.Hooks Scenario "To verify the session count displyed in tool tip" is failed
+
+18/08/2019 20:35:02 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 20:35:02 com.demo.steps_definitions.Hooks Scenario "Launch the intel app and search a product" is failed
+
+18/08/2019 20:46:15 com.demo.steps_definitions.Hooks ---------- Launching ------------null
+18/08/2019 20:46:15 com.demo.steps_definitions.Hooks Scenario "Launch the intel app and search a product" is failed
+
+18/08/2019 20:50:45 com.demo.steps_definitions.Hooks ---------- Launching ------------null
+18/08/2019 20:50:45 com.demo.steps_definitions.Hooks Scenario "Launch the intel app and search a product" is failed
+
+18/08/2019 20:57:15 com.demo.steps_definitions.Hooks ---------- Launching ------------null
+18/08/2019 20:57:15 com.demo.steps_definitions.Hooks Scenario "Launch the intel app and search a product" is failed
+
+18/08/2019 21:03:23 com.demo.steps_definitions.Hooks ---------- Launching ------------null
+18/08/2019 21:03:23 com.demo.steps_definitions.Hooks Scenario "Launch the intel app and search a product" is failed
+
+18/08/2019 21:12:23 com.demo.steps_definitions.Hooks ---------- Launching ------------null
+18/08/2019 21:14:08 com.demo.steps_definitions.Hooks ---------- Launching ------------null
+18/08/2019 21:16:19 com.demo.steps_definitions.Hooks ---------- Launching ------------null
+18/08/2019 21:17:17 com.demo.steps_definitions.Hooks Scenario "Launch the intel app and search a product" execution started 
+
+18/08/2019 21:17:24 com.demo.steps_definitions.Hooks Scenario "Launch the intel app and search a product" is failed
+
+18/08/2019 21:17:52 com.demo.steps_definitions.Hooks ---------- Launching ------------null
+18/08/2019 21:17:52 com.demo.steps_definitions.Hooks Scenario "Launch the intel app and search a product" execution started 
+
+18/08/2019 21:19:20 com.demo.steps_definitions.Hooks ---------- Launching ------------null
+18/08/2019 21:19:20 com.demo.steps_definitions.Hooks Scenario "Launch the intel app and search a product" execution started 
+
+18/08/2019 21:22:05 com.demo.steps_definitions.Hooks ---------- Launching ------------null
+18/08/2019 21:22:05 com.demo.steps_definitions.Hooks Scenario "Launch the intel app and search a product" execution started 
+
+18/08/2019 21:24:37 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 21:24:37 com.demo.steps_definitions.Hooks Scenario "Launch the intel app and search a product" execution started 
+
+18/08/2019 21:26:01 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 21:26:01 com.demo.steps_definitions.Hooks Scenario "Launch the intel app and search a product" execution started 
+
+18/08/2019 21:51:12 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 21:51:12 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" execution started 
+
+18/08/2019 22:02:37 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" is failed
+
+18/08/2019 22:03:53 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" is failed
+
+18/08/2019 22:06:51 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" is failed
+
+18/08/2019 22:11:19 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" is failed
+
+18/08/2019 22:15:13 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" is failed
+
+18/08/2019 22:16:22 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 22:16:22 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" execution started 
+
+18/08/2019 22:16:28 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" is failed
+
+18/08/2019 22:18:45 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 22:18:45 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" execution started 
+
+18/08/2019 23:34:46 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 23:34:46 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" execution started 
+
+18/08/2019 23:36:50 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 23:36:50 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" execution started 
+
+18/08/2019 23:39:20 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 23:39:20 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" execution started 
+
+18/08/2019 23:41:17 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 23:41:17 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" execution started 
+
+18/08/2019 23:42:12 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 23:42:12 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" execution started 
+
+18/08/2019 23:50:47 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 23:50:47 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" execution started 
+
+18/08/2019 23:52:09 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 23:52:09 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" execution started 
+
+18/08/2019 23:53:11 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 23:53:11 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" execution started 
+
+18/08/2019 23:54:16 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 23:54:16 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" execution started 
+
+18/08/2019 23:57:12 com.demo.steps_definitions.Hooks ---------- Launching ------------Android
+18/08/2019 23:57:12 com.demo.steps_definitions.Hooks Scenario "List different types of views available in Appium app" execution started 
+

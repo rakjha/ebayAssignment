@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Automation Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.app.generateReports.GenerateReports"/>
+  </listeners>
+  <test name="Android Test(failed)" parallel="tests">
+    <parameter name="platformVersion" value="9"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="UDID" value=""/>
+    <parameter name="deviceName" value="Android Emulator"/>
+    <classes>
+      <class name="com.app.testRunners.Android_TestRunner">
+        <methods>
+          <include name="setBrowserValue"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.app.testRunners.Android_TestRunner -->
+    </classes>
+  </test> <!-- Android Test(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->

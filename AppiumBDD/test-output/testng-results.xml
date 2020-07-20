@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Suite" duration-ms="69027" started-at="2020-07-20T10:55:46Z" finished-at="2020-07-20T10:56:55Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.testRunners.Android_TestRunner@57855c9a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Android Test" duration-ms="69027" started-at="2020-07-20T10:55:46Z" finished-at="2020-07-20T10:56:55Z">
+      <class name="com.app.testRunners.Android_TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.testRunners.Android_TestRunner@57855c9a]" name="setUpClass" is-config="true" duration-ms="212" started-at="2020-07-20T16:25:46Z" finished-at="2020-07-20T16:25:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setBrowserValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testRunners.Android_TestRunner@57855c9a]" name="setBrowserValue" is-config="true" duration-ms="7" started-at="2020-07-20T16:25:46Z" finished-at="2020-07-20T16:25:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Android Emulator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserValue -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.testRunners.Android_TestRunner@57855c9a]" name="feature" duration-ms="68684" started-at="2020-07-20T16:25:46Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-20T16:26:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SearchPage]]>
+              </value>
+            </param>
+          </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[io.appium.java_client.NoSuchContextException: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '84.0.4147'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-AK8SS6IQ', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, autoDismissAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, clearSystemFiles: true, databaseEnabled: false, desired: {acceptInsecureCerts: true, acceptSslCerts: true, appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, autoDismissAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, clearSystemFiles: true, deviceName: Android Emulator, handlesAlerts: true, newCommandTimeout: 60, noReset: true, platformName: Android, platformVersion: 9, printPageSourceOnFindFailure: true, resetKeyboard: true, takesScreenshot: true, unexpectedAlertBehaviour: true, unhandledPromptBehavior: true, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 9, printPageSourceOnFindFailure: true, resetKeyboard: true, statBarHeight: 123, takesScreenshot: true, unexpectedAlertBehaviour: true, unhandledPromptBehavior: true, unicodeKeyboard: true, viewportRect: {height: 1746, left: 0, top: 123, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 09faca16-8fcb-4157-bb35-eecee41d4e5c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: io.appium.java_client.NoSuchContextException: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '84.0.4147'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-AK8SS6IQ', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, autoDismissAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, clearSystemFiles: true, databaseEnabled: false, desired: {acceptInsecureCerts: true, acceptSslCerts: true, appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, autoDismissAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, clearSystemFiles: true, deviceName: Android Emulator, handlesAlerts: true, newCommandTimeout: 60, noReset: true, platformName: Android, platformVersion: 9, printPageSourceOnFindFailure: true, resetKeyboard: true, takesScreenshot: true, unexpectedAlertBehaviour: true, unhandledPromptBehavior: true, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 9, printPageSourceOnFindFailure: true, resetKeyboard: true, statBarHeight: 123, takesScreenshot: true, unexpectedAlertBehaviour: true, unhandledPromptBehavior: true, unicodeKeyboard: true, viewportRect: {height: 1746, left: 0, top: 123, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 09faca16-8fcb-4157-bb35-eecee41d4e5c
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: io.appium.java_client.NoSuchContextException: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '84.0.4147'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-AK8SS6IQ', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, autoDismissAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, clearSystemFiles: true, databaseEnabled: false, desired: {acceptInsecureCerts: true, acceptSslCerts: true, appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, autoDismissAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, clearSystemFiles: true, deviceName: Android Emulator, handlesAlerts: true, newCommandTimeout: 60, noReset: true, platformName: Android, platformVersion: 9, printPageSourceOnFindFailure: true, resetKeyboard: true, takesScreenshot: true, unexpectedAlertBehaviour: true, unhandledPromptBehavior: true, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 9, printPageSourceOnFindFailure: true, resetKeyboard: true, statBarHeight: 123, takesScreenshot: true, unexpectedAlertBehaviour: true, unhandledPromptBehavior: true, unicodeKeyboard: true, viewportRect: {height: 1746, left: 0, top: 123, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 09faca16-8fcb-4157-bb35-eecee41d4e5c
+	at io.appium.java_client.AppiumDriver.context(AppiumDriver.java:231)
+	at com.app.steps_definitions.LoginPage_Steps.user_logins_using_google_button(LoginPage_Steps.java:26)
+	at ✽.When User logins using 'google' button(SearchPage.feature:12)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '84.0.4147'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-AK8SS6IQ', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, autoDismissAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, clearSystemFiles: true, databaseEnabled: false, desired: {acceptInsecureCerts: true, acceptSslCerts: true, appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, autoDismissAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, clearSystemFiles: true, deviceName: Android Emulator, handlesAlerts: true, newCommandTimeout: 60, noReset: true, platformName: Android, platformVersion: 9, printPageSourceOnFindFailure: true, resetKeyboard: true, takesScreenshot: true, unexpectedAlertBehaviour: true, unhandledPromptBehavior: true, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 9, printPageSourceOnFindFailure: true, resetKeyboard: true, statBarHeight: 123, takesScreenshot: true, unexpectedAlertBehaviour: true, unhandledPromptBehavior: true, unicodeKeyboard: true, viewportRect: {height: 1746, left: 0, top: 123, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 09faca16-8fcb-4157-bb35-eecee41d4e5c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.AppiumDriver.context(AppiumDriver.java:228)
+	at com.app.steps_definitions.LoginPage_Steps.user_logins_using_google_button(LoginPage_Steps.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.testRunners.Android_TestRunner@57855c9a]" name="tearDownClass" is-config="true" duration-ms="56" started-at="2020-07-20T16:26:55Z" finished-at="2020-07-20T16:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.app.testRunners.Android_TestRunner -->
+    </test> <!-- Android Test -->
+  </suite> <!-- Automation Suite -->
+</testng-results>

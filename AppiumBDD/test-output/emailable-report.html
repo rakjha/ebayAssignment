@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Automation Suite</th></tr><tr><td><a href="#t0">Android Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">69,027</td><td></td><td></td></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Android Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.app.testRunners.Android_TestRunner</td><td><a href="#m0">feature</a></td><td rowspan="1">1595242546960</td><td rowspan="1">68684</td></tr></tbody></table><h2>Android Test</h2><h3 id="m0">com.app.testRunners.Android_TestRunner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>SearchPage</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: io.appium.java_client.NoSuchContextException: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome &apos;84.0.4147&apos;. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-AK8SS6IQ&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, autoDismissAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, clearSystemFiles: true, databaseEnabled: false, desired: {acceptInsecureCerts: true, acceptSslCerts: true, appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, autoDismissAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, clearSystemFiles: true, deviceName: Android Emulator, handlesAlerts: true, newCommandTimeout: 60, noReset: true, platformName: Android, platformVersion: 9, printPageSourceOnFindFailure: true, resetKeyboard: true, takesScreenshot: true, unexpectedAlertBehaviour: true, unhandledPromptBehavior: true, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 9, printPageSourceOnFindFailure: true, resetKeyboard: true, statBarHeight: 123, takesScreenshot: true, unexpectedAlertBehaviour: true, unhandledPromptBehavior: true, unicodeKeyboard: true, viewportRect: {height: 1746, left: 0, top: 123, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 09faca16-8fcb-4157-bb35-eecee41d4e5c
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: io.appium.java_client.NoSuchContextException: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome &apos;84.0.4147&apos;. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-AK8SS6IQ&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, autoDismissAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, clearSystemFiles: true, databaseEnabled: false, desired: {acceptInsecureCerts: true, acceptSslCerts: true, appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, autoDismissAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, clearSystemFiles: true, deviceName: Android Emulator, handlesAlerts: true, newCommandTimeout: 60, noReset: true, platformName: Android, platformVersion: 9, printPageSourceOnFindFailure: true, resetKeyboard: true, takesScreenshot: true, unexpectedAlertBehaviour: true, unhandledPromptBehavior: true, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 9, printPageSourceOnFindFailure: true, resetKeyboard: true, statBarHeight: 123, takesScreenshot: true, unexpectedAlertBehaviour: true, unhandledPromptBehavior: true, unicodeKeyboard: true, viewportRect: {height: 1746, left: 0, top: 123, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 09faca16-8fcb-4157-bb35-eecee41d4e5c
+	at io.appium.java_client.AppiumDriver.context(AppiumDriver.java:231)
+	at com.app.steps_definitions.LoginPage_Steps.user_logins_using_google_button(LoginPage_Steps.java:26)
+	at ?.When User logins using &apos;google&apos; button(SearchPage.feature:12)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome &apos;84.0.4147&apos;. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details. You could also try to enable automated chromedrivers download server feature (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-AK8SS6IQ&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, autoDismissAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, clearSystemFiles: true, databaseEnabled: false, desired: {acceptInsecureCerts: true, acceptSslCerts: true, appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, autoDismissAlerts: true, autoGrantPermissions: true, automationName: UiAutomator2, clearSystemFiles: true, deviceName: Android Emulator, handlesAlerts: true, newCommandTimeout: 60, noReset: true, platformName: Android, platformVersion: 9, printPageSourceOnFindFailure: true, resetKeyboard: true, takesScreenshot: true, unexpectedAlertBehaviour: true, unhandledPromptBehavior: true, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, noReset: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 9, printPageSourceOnFindFailure: true, resetKeyboard: true, statBarHeight: 123, takesScreenshot: true, unexpectedAlertBehaviour: true, unhandledPromptBehavior: true, unicodeKeyboard: true, viewportRect: {height: 1746, left: 0, top: 123, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 09faca16-8fcb-4157-bb35-eecee41d4e5c
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.AppiumDriver.context(AppiumDriver.java:228)
+	at com.app.steps_definitions.LoginPage_Steps.user_logins_using_google_button(LoginPage_Steps.java:26)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
